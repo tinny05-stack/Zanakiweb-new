@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Zanaki Secondary School - Excellence in Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     Loading Screen 
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">Zanaki Secondary School</div>
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Loading Excellence...</div>
+        </div>
+    </div>
+
+     Scroll to Top Button 
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4L4 12H8V20H16V12H20L12 4Z" fill="currentColor"/>
+        </svg>
+    </button>
+
+    <header>
+        <div class="container">
+            <!-- <div class="header-content"> -->
+                <div class="logo-container">
+                <div class="logo">Zanaki Secondary School</div>
+            <!-- <div class="logo-tagline">Excellence in Education</div> -->
+            </div>
+        </div>
+        <div class="container">
+                <nav>
+                    <button class="mobile-menu" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                    <ul id="nav-menu">
+                        <li><a href="#" data-section="home" class="nav-link active">
+                            <span class="nav-icon">🏠</span>Home
+                        </a></li>
+                        <li><a href="#" data-section="about" class="nav-link">
+                            <span class="nav-icon">ℹ️</span>About Us
+                        </a></li>
+                        <li><a href="#" data-section="academics" class="nav-link">
+                            <span class="nav-icon">📚</span>Academics
+                        </a></li>
+                        <li><a href="#" data-section="admission" class="nav-link">
+                            <span class="nav-icon">📝</span>Admission
+                        </a></li>
+                        <li><a href="#" data-section="students" class="nav-link">
+                            <span class="nav-icon">👥</span>Students
+                        </a></li>
+                        <li><a href="#" data-section="necta-results" class="nav-link">
+                            <span class="nav-icon">📊</span>NECTA Results
+                        </a></li>
+                        <li><a href="#" data-section="contact" class="nav-link">
+                            <span class="nav-icon">📞</span>Contact
+                        </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="hero-background"></div>
+                <div class="hero-particles"></div>
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Welcome to Zanaki Secondary School</h1>
+                        <p class="hero-subtitle">EDUCATION FIRST</p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="1150">0</div>
+                                <div class="stat-label">Students</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="59">0</div>
+                                <div class="stat-label">Teachers</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-count="85">0</div>
+                                <div class="stat-label">Years of Excellence</div>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#" data-section="about" class="btn btn-primary nav-btn">
+                                <span>Discover Our Story</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </a>
+                            <a href="#" data-section="admission" class="btn btn-secondary nav-btn">
+                                <span>Apply Now</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="features-section">
+                    <div class="section-header">
+                        <h2 class="section-title">Why Choose Zanaki?</h2>
+                        <p class="section-subtitle">Discover what makes us the premier choice for quality education</p>
+                    </div>
+                    <div class="welcome-content">
+                        <div class="welcome-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-icon">🎓</div>
+                            <h3>Quality Education</h3>
+                            <p>World-class education with modern teaching methods and experienced faculty members dedicated to student success and academic excellence.</p>
+                            <div class="card-footer">
+                                <span class="learn-more">Learn More →</span>
+                            </div>
+                        </div>
+                        <div class="welcome-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card-icon">🌟</div>
+                            <h3>Holistic Development</h3>
+                            <p>Our curriculum focuses on academic excellence while nurturing creativity, leadership, and character development in every student.</p>
+                            <div class="card-footer">
+                                <span class="learn-more">Learn More →</span>
+                            </div>
+                        </div>
+                        <div class="welcome-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card-icon">🏢</div>
+                            <h3>Modern Facilities</h3>
+                            <p>State-of-the-art classrooms, laboratories, and library provide the perfect environment for learning and growth.</p>
+                            <div class="card-footer">
+                                <span class="learn-more">Learn More →</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Zanaki Secondary School</h2>
+                    <p class="section-subtitle">Discover our rich history and commitment to educational excellence</p>
+                </div>
+                
+                <div class="about-timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-year">1939</div>
+                        <div class="timeline-content">
+                            <h3>Foundation</h3>
+                            <p>Established by His Highness Aga Khan as one of Tanzania's pioneering educational institutions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-year">1970s</div>
+                        <div class="timeline-content">
+                            <h3>Government Takeover</h3>
+                            <p>Transitioned to government management and renamed to Zanaki Secondary School.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-year">2025</div>
+                        <div class="timeline-content">
+                            <h3>Modern Era</h3>
+                            <p>Today we serve 1,000+ female students with our dedicated teachers and modern facilities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card mission-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="card-header">
+                            <div class="card-icon">🎯</div>
+                            <h3>Our Mission</h3>
+                        </div>
+                        <p>Using the official curriculum, we are committed to providing our students with challenging programmes, conducive learning environment and opportunities for both personal and intellectual development so as to prepare them for concrete career studies and help them become independent lifelong learners.</p>
+                    </div>
+                    
+                    <div class="about-card vision-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="card-header">
+                            <div class="card-icon">👁️</div>
+                            <h3>Our Vision</h3>
+                        </div>
+                        <p>To offer our students the opportunity to transform their visions into reality. To increase the percentage of those who pass in Division I and II by 70% and reduce the failure rate to less than 1% for O-level and 0% for A-level.</p>
+                    </div>
+                    
+                    <div class="about-card values-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="card-header">
+                            <div class="card-icon">💎</div>
+                            <h3>Our Values</h3>
+                        </div>
+                        <ul class="values-list">
+                            <li>Excellence in Education</li>
+                            <li>Integrity and Character</li>
+                            <li>Innovation and Creativity</li>
+                            <li>Community and Collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="headteacher-message" data-aos="fade-up">
+                    <div class="message-header">
+                        <div class="headteacher-avatar">
+                            <img src="/placeholder.svg?height=100&width=100" alt="Dr. Sarah Johnson">
+                        </div>
+                        <div class="message-info">
+                            <h3>Message from the Headteacher</h3>
+                            <p class="headteacher-name">Dr. Sarah Johnson</p>
+                            <p class="headteacher-title">Headteacher & Educational Leader</p>
+                        </div>
+                    </div>
+                    <div class="message-content">
+                        <blockquote>
+                            "Welcome to Zanaki Secondary School, where education meets excellence. As the headteacher, I am proud to lead an institution that has consistently delivered outstanding results while maintaining a warm, supportive environment for all our students.
+                            <br><br>
+                            Our dedicated team of educators works tirelessly to ensure that every child receives personalized attention and the opportunity to discover their unique talents and abilities. We believe that education is not just about academic achievement, but about developing confident, compassionate, and capable individuals.
+                            <br><br>
+                            I invite you to join our school community and experience the difference that quality education can make in your child's life."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="academics" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Academic Excellence</h2>
+                    <p class="section-subtitle">Comprehensive curriculum designed for holistic development</p>
+                </div>
+
+                <div class="levels-section">
+                    <h3 class="subsection-title">School Levels</h3>
+                    <div class="levels-grid">
+                        <div class="level-card secondary-level" data-aos="slide-up" data-aos-delay="100">
+                            <div class="level-icon">🎓</div>
+                            <h4>Secondary Level</h4>
+                            <div class="level-badge">Forms 1-4</div>
+                            <p>Comprehensive four-year program covering core subjects in sciences, arts, and business. Focuses on foundational knowledge, personal growth, and preparation for national O-level examinations.</p>
+                            <div class="level-features">
+                                <span class="feature-tag">Core Subjects</span>
+                                <span class="feature-tag">O-Level Prep</span>
+                                <span class="feature-tag">Character Building</span>
+                            </div>
+                        </div>
+                        <div class="level-card advance-level" data-aos="slide-up" data-aos-delay="200">
+                            <div class="level-icon">🏆</div>
+                            <h4>Advanced Level</h4>
+                            <div class="level-badge">Forms 5-6</div>
+                            <p>Specialized curriculum for Forms 5 and 6, arts and business combinations. Preparing students for national exams and university entry with focus on critical thinking and research skills.</p>
+                            <div class="level-features">
+                                <span class="feature-tag">University Prep</span>
+                                <span class="feature-tag">A-Level Focus</span>
+                                <span class="feature-tag">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subjects-section">
+                    <h3 class="subsection-title">Subjects Offered</h3>
+                    <div class="subjects-grid">
+                        <div class="subject-card math-card" data-aos="flip-left" data-aos-delay="100">
+                            <div class="subject-icon">📐</div>
+                            <h4>Mathematics</h4>
+                            <p>From basic arithmetic to advanced calculus and statistics</p>
+                            <div class="subject-level">All Levels</div>
+                        </div>
+                        <div class="subject-card english-card" data-aos="flip-left" data-aos-delay="150">
+                            <div class="subject-icon">📖</div>
+                            <h4>English Language & Literature</h4>
+                            <p>Comprehensive language skills and literary analysis</p>
+                            <div class="subject-level">All Levels</div>
+                        </div>
+                        <div class="subject-card science-card" data-aos="flip-left" data-aos-delay="200">
+                            <div class="subject-icon">🔬</div>
+                            <h4>Sciences</h4>
+                            <p>Biology, Chemistry, Physics with hands-on laboratory work</p>
+                            <div class="subject-level">All Levels</div>
+                        </div>
+                        <div class="subject-card social-card" data-aos="flip-left" data-aos-delay="250">
+                            <div class="subject-icon">🌍</div>
+                            <h4>Social Studies</h4>
+                            <p>History, Geography, Civics, and General Studies</p>
+                            <div class="subject-level">All Levels</div>
+                        </div>
+                        <div class="subject-card computer-card" data-aos="flip-left" data-aos-delay="300">
+                            <div class="subject-icon">💻</div>
+                            <h4>Computer Studies</h4>
+                            <p>Web designing, networking, and digital literacy skills</p>
+                            <div class="subject-level">All Levels</div>
+                        </div>
+                        <div class="subject-card art-card" data-aos="flip-left" data-aos-delay="350">
+                            <div class="subject-icon">🎨</div>
+                            <h4>Fine Arts</h4>
+                            <p>Creative expression through visual arts and design</p>
+                            <div class="subject-level">Elective</div>
+                        </div>
+                        <div class="subject-card pe-card" data-aos="flip-left" data-aos-delay="400">
+                            <div class="subject-icon">⚽</div>
+                            <h4>Physical Education</h4>
+                            <p>Sports, fitness, and health education programs</p>
+                            <div class="subject-level">All Levels</div>
+                        </div>
+                        <div class="subject-card language-card" data-aos="flip-left" data-aos-delay="450">
+                            <div class="subject-icon">🌐</div>
+                            <h4>Foreign Languages</h4>
+                            <p>French, Spanish, German, and Chinese</p>
+                            <div class="subject-level">Elective</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="curriculum-overview" data-aos="fade-up">
+                    <div class="overview-content">
+                        <h3>Curriculum Overview</h3>
+                        <p>Our curriculum is designed to meet international standards while incorporating local cultural values. We follow a balanced approach that combines traditional teaching methods with modern educational technology.</p>
+                        <div class="curriculum-features">
+                            <div class="feature-item">
+                                <div class="feature-icon">📊</div>
+                                <span>Regular assessments and progress monitoring</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">👤</div>
+                                <span>Individual learning plans for each student</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">🧠</div>
+                                <span>Focus on critical thinking and problem-solving skills</span>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon">🌟</div>
+                                <span>Character development and leadership training</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="admission" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Admission Process</h2>
+                    <p class="section-subtitle">Join our community of learners and achievers</p>
+                </div>
+
+                <div class="admission-process">
+                    <h3 class="subsection-title">Step-by-Step Admission Process</h3>
+                    <div class="process-timeline">
+                        <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Application Submission</h4>
+                                <p>Complete and submit the admission application form along with required documents. Applications can be submitted online or in person at our admissions office.</p>
+                                <div class="step-duration">Duration: 1 day</div>
+                            </div>
+                        </div>
+                        <div class="process-step" data-aos="fade-left" data-aos-delay="200">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Document Review</h4>
+                                <p>Our admissions team will review all submitted documents and verify the information provided. This process typically takes 3-5 business days.</p>
+                                <div class="step-duration">Duration: 3-5 days</div>
+                            </div>
+                        </div>
+                        <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Assessment Test</h4>
+                                <p>Students will take an age-appropriate assessment test to evaluate their current academic level and learning needs.</p>
+                                <div class="step-duration">Duration: 2 hours</div>
+                            </div>
+                        </div>
+                        <div class="process-step" data-aos="fade-left" data-aos-delay="400">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Interview</h4>
+                                <p>A brief interview with the student and parents/guardians to discuss expectations, goals, and school policies.</p>
+                                <div class="step-duration">Duration: 30 minutes</div>
+                            </div>
+                        </div>
+                        <div class="process-step" data-aos="fade-right" data-aos-delay="500">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Admission Decision</h4>
+                                <p>Admission decision will be communicated within one week of completing all requirements. Successful applicants will receive enrollment instructions.</p>
+                                <div class="step-duration">Duration: 1 week</div>
+                            </div>
+                        </div>
+                        <div class="process-step" data-aos="fade-left" data-aos-delay="600">
+                            <div class="step-number">6</div>
+                            <div class="step-content">
+                                <h4>Enrollment</h4>
+                                <p>Complete the enrollment process by paying fees, submitting additional forms, and attending the orientation session.</p>
+                                <div class="step-duration">Duration: 1 day</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="requirements-section" data-aos="fade-up">
+                    <div class="requirements-card">
+                        <h3>Requirements for New Students</h3>
+                        <div class="requirements-grid">
+                            <div class="requirement-item">
+                                <div class="req-icon">📋</div>
+                                <span>Completed admission application form</span>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="req-icon">🆔</div>
+                                <span>Birth certificate or passport copy</span>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="req-icon">📊</div>
+                                <span>Previous school transcripts and report cards</span>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="req-icon">🏥</div>
+                                <span>Medical records and immunization certificates</span>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="req-icon">📸</div>
+                                <span>Two recent passport-sized photographs</span>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="req-icon">👨‍👩‍👧‍👦</div>
+                                <span>Parent/guardian identification documents</span>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="req-icon">🏠</div>
+                                <span>Proof of residence (utility bill or lease agreement)</span>
+                            </div>
+                            <div class="requirement-item">
+                                <div class="req-icon">📜</div>
+                                <span>Transfer certificate from previous school (if applicable)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="download-section" data-aos="zoom-in">
+                    <div class="download-card">
+                        <div class="download-icon">📥</div>
+                        <h3>Download Joining Instructions</h3>
+                        <p>Get detailed information about enrollment procedures, required documents, and important dates.</p>
+                        <a href="Joining Instruction" download="TIMETABLE 1&2.xlsx" class="btn btn-download" onclick="alert('Joining Instruction downloaded Successfully')">
+                            <span>Download Instructions</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 15V3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="students" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Student Life</h2>
+                    <p class="section-subtitle">Celebrating achievements and fostering growth</p>
+                </div>
+
+                <div class="achievements-section">
+                    <h3 class="subsection-title">Student Achievements</h3>
+                    <div class="achievement-grid">
+                        <div class="achievement-card academic-achievement" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="achievement-icon">🏆</div>
+                            <div class="achievement-number">95%</div>
+                            <h4>Academic Excellence</h4>
+                            <p>Of our students achieve above-average grades in national examinations</p>
+                            <div class="achievement-badge">Outstanding</div>
+                        </div>
+                        <div class="achievement-card arts-achievement" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="achievement-icon">🎭</div>
+                            <div class="achievement-number">50+</div>
+                            <h4>Arts & Culture</h4>
+                            <p>Awards in music, drama, and visual arts competitions</p>
+                            <div class="achievement-badge">Creative</div>
+                        </div>
+                        <div class="achievement-card university-achievement" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="achievement-icon">🎓</div>
+                            <div class="achievement-number">98%</div>
+                            <h4>University Admissions</h4>
+                            <p>Of graduates gain admission to their preferred universities</p>
+                            <div class="achievement-badge">Success</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clubs-section">
+                    <h3 class="subsection-title">Clubs & Activities</h3>
+                    <div class="clubs-grid">
+                        <div class="club-card drama-club" data-aos="slide-up" data-aos-delay="100">
+                            <div class="club-icon">🎭</div>
+                            <h4>Drama Club</h4>
+                            <p>Theater productions and acting workshops</p>
+                            <div class="club-members">45 Members</div>
+                        </div>
+                        <div class="club-card science-club" data-aos="slide-up" data-aos-delay="150">
+                            <div class="club-icon">🔬</div>
+                            <h4>Science Club</h4>
+                            <p>Experiments and scientific research projects</p>
+                            <div class="club-members">38 Members</div>
+                        </div>
+                        <div class="club-card music-club" data-aos="slide-up" data-aos-delay="200">
+                            <div class="club-icon">🎵</div>
+                            <h4>Music Band</h4>
+                            <p>Instrumental and vocal music performances</p>
+                            <div class="club-members">32 Members</div>
+                        </div>
+                        <div class="club-card debate-club" data-aos="slide-up" data-aos-delay="250">
+                            <div class="club-icon">🗣️</div>
+                            <h4>Debate Society</h4>
+                            <p>Public speaking and argumentation skills</p>
+                            <div class="club-members">28 Members</div>
+                        </div>
+                        <div class="club-card art-club" data-aos="slide-up" data-aos-delay="300">
+                            <div class="club-icon">🎨</div>
+                            <h4>Art Club</h4>
+                            <p>Painting, sculpture, and creative arts</p>
+                            <div class="club-members">35 Members</div>
+                        </div>
+                        <div class="club-card env-club" data-aos="slide-up" data-aos-delay="350">
+                            <div class="club-icon">🌱</div>
+                            <h4>Environmental Club</h4>
+                            <p>Sustainability and conservation projects</p>
+                            <div class="club-members">42 Members</div>
+                        </div>
+                        <div class="club-card chess-club" data-aos="slide-up" data-aos-delay="400">
+                            <div class="club-icon">♟️</div>
+                            <h4>Chess Club</h4>
+                            <p>Strategic thinking and chess tournaments</p>
+                            <div class="club-members">25 Members</div>
+                        </div>
+                        <div class="club-card robotics-club" data-aos="slide-up" data-aos-delay="450">
+                            <div class="club-icon">🤖</div>
+                            <h4>Robotics Club</h4>
+                            <p>Programming and building robots</p>
+                            <div class="club-members">20 Members</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-section">
+                    <h3 class="subsection-title">School Gallery</h3>
+                    <div class="gallery">
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Students in classroom" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Modern Classrooms</h4>
+                                <p>State-of-the-art learning environments</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Science laboratory" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Science Laboratory</h4>
+                                <p>Hands-on experiments and research</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Sports activities" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Sports Activities</h4>
+                                <p>Physical fitness and teamwork</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="/placeholder.svg?height=300&width=400" alt="School library" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>School Library</h4>
+                                <p>Quiet study and research space</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Art class" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Art Classes</h4>
+                                <p>Creative expression and talent development</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Graduation ceremony" loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>Graduation Day</h4>
+                                <p>Celebrating student achievements</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="necta-results" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">NECTA Results</h2>
+                    <p class="section-subtitle">Access national examination results for all levels</p>
+                </div>
+
+                <div class="results-intro" data-aos="fade-up">
+                    <div class="intro-card">
+                        <div class="intro-icon">📊</div>
+                        <h3>National Examination Results Portal</h3>
+                        <p>Access the latest NECTA examination results for Form Two, Form Four, and Form Six students. Our results portal provides quick and secure access to official examination outcomes.</p>
+                        <div class="intro-features">
+                            <div class="feature-badge">✓ Instant Access</div>
+                            <div class="feature-badge">✓ Secure Portal</div>
+                            <div class="feature-badge">✓ Official Results</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-buttons">
+                    <div class="result-card ftna-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="result-header">
+                            <div class="result-icon">📊</div>
+                            <div class="result-badge">Form II</div>
+                        </div>
+                        <h4>Form Two Results</h4>
+                        <p class="result-title">Form Two National Assessment (FTNA) Results 2024</p>
+                        <p class="result-description">Basic education certificate examination results for students completing Form Two studies. Access your FTNA results and certificates.</p>
+                        <div class="result-stats">
+                            <div class="stat">
+                                <span class="stat-number">95%</span>
+                                <span class="stat-label">Pass Rate</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">2024</span>
+                                <span class="stat-label">Latest Year</span>
+                            </div>
+                        </div>
+                        <a href="https://onlinesys.necta.go.tz/results/2024/ftna/results.htm" target="_blank" class="result-btn ftna-btn">
+                            <span>View FTNA Results 2024</span>
+                            <div class="btn-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H12" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M15 3H21V9" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M10 14L21 3" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="result-card csee-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="result-header">
+                            <div class="result-icon">🎓</div>
+                            <div class="result-badge">Form IV</div>
+                        </div>
+                        <h4>Form Four Results</h4>
+                        <p class="result-title">Certificate of Secondary Education Examination (CSEE) Results 2024</p>
+                        <p class="result-description">O-Level examination results for students completing ordinary level secondary education. Check your CSEE performance and division.</p>
+                        <div class="result-stats">
+                            <div class="stat">
+                                <span class="stat-number">92%</span>
+                                <span class="stat-label">Pass Rate</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">2024</span>
+                                <span class="stat-label">Latest Year</span>
+                            </div>
+                        </div>
+                        <a href="https://onlinesys.necta.go.tz/results/2024/csee/results.htm" target="_blank" class="result-btn csee-btn">
+                            <span>View CSEE Results 2024</span>
+                            <div class="btn-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H12" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M15 3H21V9" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M10 14L21 3" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="result-card acsee-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="result-header">
+                            <div class="result-icon">🏆</div>
+                            <div class="result-badge">Form VI</div>
+                        </div>
+                        <h4>Form Six Results</h4>
+                        <p class="result-title">Advanced Certificate of Secondary Education Examination (ACSEE) Results 2024</p>
+                        <p class="result-description">A-Level examination results for students completing advanced level secondary education. Access your university entrance qualifications.</p>
+                        <div class="result-stats">
+                            <div class="stat">
+                                <span class="stat-number">88%</span>
+                                <span class="stat-label">Pass Rate</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">2024</span>
+                                <span class="stat-label">Latest Year</span>
+                            </div>
+                        </div>
+                        <a href="https://onlinesys.necta.go.tz/results/2024/acsee/results.htm" target="_blank" class="result-btn acsee-btn">
+                            <span>View ACSEE Results 2024</span>
+                            <div class="btn-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H12" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M15 3H21V9" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M10 14L21 3" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="results-info">
+                    <div class="info-section" data-aos="slide-right">
+                        <div class="info-header">
+                            <div class="info-icon">📋</div>
+                            <h3>How to Check Results</h3>
+                        </div>
+                        <div class="info-steps">
+                            <div class="info-step">
+                                <div class="step-num">1</div>
+                                <div class="step-content">
+                                    <h4>Select Exam Type</h4>
+                                    <p>Click on the appropriate results button above for your examination level</p>
+                                </div>
+                            </div>
+                            <div class="info-step">
+                                <div class="step-num">2</div>
+                                <div class="step-content">
+                                    <h4>Enter Details</h4>
+                                    <p>Input your examination number in the search field on the NECTA portal</p>
+                                </div>
+                            </div>
+                            <div class="info-step">
+                                <div class="step-num">3</div>
+                                <div class="step-content">
+                                    <h4>View Results</h4>
+                                    <p>Click "Search" to view your detailed examination results and grades</p>
+                                </div>
+                            </div>
+                            <div class="info-step">
+                                <div class="step-num">4</div>
+                                <div class="step-content">
+                                    <h4>Download Certificate</h4>
+                                    <p>Save or print your results certificate for official records</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-results" data-aos="slide-left">
+                        <div class="contact-header">
+                            <div class="contact-icon">🆘</div>
+                            <h3>Need Assistance?</h3>
+                        </div>
+                        <p>If you encounter any issues accessing your results or need help with the portal, our academic office is here to assist you.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-item-icon">📞</div>
+                                <div class="contact-item-content">
+                                    <strong>Phone Support</strong>
+                                    <span>0713-475-424</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">✉️</div>
+                                <div class="contact-item-content">
+                                    <strong>Email Support</strong>
+                                    <span>zanakigirlssecondary@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">🕒</div>
+                                <div class="contact-item-content">
+                                    <strong>Office Hours</strong>
+                                    <span>Monday - Friday, 7:30 AM - 3:30 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="support-note">
+                            <p><strong>Quick Tip:</strong> Have your examination number ready before accessing the results portal for faster service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p class="section-subtitle">Get in touch with us for any inquiries</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-form" data-aos="slide-right">
+                        <div class="form-header">
+                            <div class="form-icon">💬</div>
+                            <h3>Send us a Message</h3>
+                            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                        </div>
+                        <form action="https://formsubmit.co/justinelias05@icloud.com" method="POST" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <div class="error" id="nameError"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="error" id="emailError"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                    <div class="error" id="phoneError"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject *</label>
+                                    <input type="text" id="subject" name="subject" required>
+                                    <div class="error" id="subjectError"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required placeholder="Please enter your message here..."></textarea>
+                                <div class="error" id="messageError"></div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Send Message</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                    <path d="M22 2L11 13" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info" data-aos="slide-left">
+                        <div class="info-header">
+                            <div class="info-icon">📍</div>
+                            <h3>Contact Information</h3>
+                            <p>Visit us, call us, or send us an email. We're here to help!</p>
+                        </div>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-content">
+                                    <strong>Phone</strong>
+                                    <span>0713-475-424</span>
+                                    <a href="tel:+255713475424" class="contact-link">Call Now</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">✉️</div>
+                                <div class="contact-content">
+                                    <strong>Email</strong>
+                                    <span>zanakigirlssecondary@gmail.com</span>
+                                    <a href="mailto:zanakigirlssecondary@gmail.com" class="contact-link">Send Email</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-content">
+                                    <strong>Address</strong>
+                                    <span>S.L.P 2O592, DAR-ES-SALAAM, Tanzania</span>
+                                    <a href="#" class="contact-link">Get Directions</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">🕒</div>
+                                <div class="contact-content">
+                                    <strong>Office Hours</strong>
+                                    <span>Monday - Friday: 7:30 AM - 3:30 PM</span>
+                                    <div id="office-status" class="office-status"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1980.8287815743736!2d39.27861677976227!3d-6.811441146889778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4ba091c08b8f%3A0x54244891d60e3ff!2sZanaki%20Secondary%20School!5e0!3m2!1sen!2stz!4v1754586677521!5m2!1sen!2stz"
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            <div class="map-overlay">
+                                <div class="map-info">
+                                    <h4>Visit Our Campus</h4>
+                                    <p>Located in the heart of Dar es Salaam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Zanaki Secondary School</h3>
+                        <p>Excellence in Education Since 1939</p>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#" data-section="about">About Us</a></li>
+                        <li><a href="#" data-section="academics">Academics</a></li>
+                        <li><a href="#" data-section="admission">Admission</a></li>
+                        <li><a href="#" data-section="necta-results">NECTA Results</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📞 0713-475-424</li>
+                        <li>✉️ zanakigirlssecondary@gmail.com</li>
+                        <li>📍 Dar es Salaam, Tanzania</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zanaki Secondary School. All rights reserved.</p>
+                <p>Designed with ❤️ for educational excellence</p>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Image Modal --> 
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <img id="modalImg" src="/placeholder.svg" alt="Enlarged view">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
